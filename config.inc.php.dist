@@ -1,0 +1,8 @@
+<?php
+// Linotp server
+$rcmail_config['linotp_server'] = '<your server>';
+// Linotp port
+$rcmail_config['linotp_port'] = '<your port>';
+// Linotp emergency password
+$rcmail_config['linotp_emergencypw'] = '<your emergency password>';
+?>
