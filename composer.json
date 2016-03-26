@@ -1,0 +1,14 @@
+{
+    "name": "joehil/linotp",
+    "type": "roundcube-plugin",
+    "license": "GPL-3.0+",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://plugins.roundcube.net"
+        }
+    ],
+    "require": {
+        "roundcube/plugin-installer": ">=0.1.3"
+    }
+}
