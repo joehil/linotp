@@ -1,5 +1,5 @@
-Roundcube linotp ogin plugin
-============================
+Roundcube linotp login plugin
+=============================
 
 Introduction
 ------------
@@ -13,7 +13,7 @@ Installation
 ------------
 
 * LinOTP server should be setup and configured (instructions for doing this are beyond the scope of this README)
-* Download the linotp plugin to roundcube plugins directory.  
+* Upload the linotp plugin to roundcube plugins directory.  
 ```
 * Activate the plugin by adding it in roundcube config file (config/main.inc.php).  
 ```
