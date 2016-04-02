@@ -26,6 +26,10 @@ Configuration
 The linotp server and port must be configured by renaming config.inc.php.dist to config.inc.php and modifying it. You can also set an emergency password that can be used if the linotp server cannot be contacted.
 
 
+Attention
+---------
+During authentication the user will be converted to lower case, e.g Joe.Black@test.COM will be converted to joe.black@test.com. So linotp will only see lower case users. Please pay attention to this fact when defining roundcube users in linotp.
+
 LICENCE
 -------
 
