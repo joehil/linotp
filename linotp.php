@@ -74,7 +74,7 @@ class linotp extends rcube_plugin
 		return 0;
 	}
 
-	$data = "user=" . urlencode($user) . "&pass=" . urlencode($pass.$code);
+	$data = "user=" . urlencode(strtolower($user)) . "&pass=" . urlencode($pass.$code);
 	$request = "POST /validate/check HTTPS/1.1\r\n";
 	$request .= "Host: ".$server."\r\n";
 	$request .= "Content-type: application/x-www-form-urlencoded\r\n";
