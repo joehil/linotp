@@ -14,11 +14,9 @@ Installation
 
 * LinOTP server should be setup and configured (instructions for doing this are beyond the scope of this README)
 * Upload the linotp plugin to roundcube plugins directory.  
-```
 * Activate the plugin by adding it in roundcube config file (config/main.inc.php).  
-```
+
 $rcmail_config['plugins'] = array('linotp');
-```
 
 Configuration
 -------------
